@@ -1,0 +1,91 @@
+$FooterColor: #AEAEAE;
+$YellowButtoNCOlor: #FF9100;
+$BlueColor:#5898C3;
+$InfoDisplayColor:#E4E4E4;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+
+
+body { 
+    margin:0px;
+    padding:0px;
+}
+.footerNav {
+}
+
+.headerSection {
+
+}
+
+.imageIcon {
+    cursor: pointer;
+    margin-top:1%;
+    margin-left:1%;
+
+    &__image {
+        width: 12%;
+    }    
+}
+
+.heroSection {
+    background-image: url("../img/headeHero.jpg");
+    width: 100%;
+    height: 55vh;
+    background-position: 50% 51%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heroText {
+    margin-top:10%;
+    display: inline-block;
+    background-color: $FooterColor;
+    color:white;
+    font-family: 'Baloo Chettan 2', cursive; 
+
+      &__text {
+        padding:0.5em;
+        font-size:3em;
+    }
+    
+}
+
+.boxGridHotels {
+   
+   
+    
+
+}
+
+.search {
+    height: 100px;
+    background-color: $InfoDisplayColor;
+    margin-top:21vh;
+    margin-left:24%;
+    width: 60%;    
+    -webkit-box-shadow: 0px 6px 21px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 21px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 21px -3px rgba(0,0,0,0.75);
+
+    input  {
+        height: 37%;
+    }
+
+    &__input {
+        margin:2em; 
+        width: 40%;   
+    }   
+    &__rooms {
+        margin-left: 3%;
+    }
+    &__Button {
+        width: 10%;
+        margin-left:1%;
+        background-color: $BlueColor;
+        color:white;
+        font-weight: 700;
+        border:none;
+        
+    }
+}
